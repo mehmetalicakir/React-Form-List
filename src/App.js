@@ -39,7 +39,7 @@ class App extends Component {
 
             <h5> This is a new page for learning. </h5>
             <p> Default paragraph </p>
-      
+            
 
         </header>
       </div>
