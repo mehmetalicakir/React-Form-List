@@ -36,15 +36,17 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            This is new note.
-          </p>
-          <LambdaDemo />
+
+            <h5> This is a new page for learning. </h5>
+            <p> Default paragraph </p>
+      
+
         </header>
       </div>
     )
   }
 }
+
+
 
 export default App
