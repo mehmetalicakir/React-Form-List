@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-import AddUser from ".components/AddUser.js"
+import AddUser from "./components/AddUser.js"
 import logo from "./logo.svg"
 import "./App.css"
 
