@@ -4,7 +4,7 @@ class Users extends Component {
   render() {
 
     return(
-      <table class="table table-striped">
+      <table className="table table-striped">
   <thead>
     <tr>
       <th scope="col">#</th>

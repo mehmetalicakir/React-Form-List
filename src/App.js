@@ -67,6 +67,7 @@ class App extends Component {
         <header className="App-header">
             <h4>Add New User Form</h4>
             <AddUser />
+            <hr/>
             <h4>User List</h4>
             <Users />
         </header>
