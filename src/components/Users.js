@@ -20,13 +20,13 @@ class Users extends Component {
       users.map(user => {
 
         const {id,name,email} = user;
-        return < User
+        return( < User
           key={id}
           id={id}
           name={name}
           email={email}
           deleteUser={deleteUser}
-        />
+        />);
 
       })
     }
