@@ -69,7 +69,6 @@ class App extends Component {
 
             <h5> This is a new page for learning. </h5>
             <p> {title} </p>
-            <label  htmlFor="name"> User App </label>
             <hr />
             <AddUser />
 
