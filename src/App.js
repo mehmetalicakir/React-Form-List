@@ -58,7 +58,7 @@ class App extends Component {
     ]
     };
 
-this.deleteUser = this.deleteUser.bind(this);}
+this.deleteUser = this.deleteUser.bind(this);
 this.addUser = this.addUser.bind(this);}
 
   addUser(newUser){
