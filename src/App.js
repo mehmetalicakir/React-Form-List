@@ -65,7 +65,7 @@ this.addUser = this.addUser.bind(this);}
     let updatedUsers = this.state.users;
     updatedUsers.push(newUser);
     this.setState({
-      users=updatedUsers
+      users: updatedUsers
     });
   }
 
