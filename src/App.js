@@ -18,7 +18,7 @@ class LambdaDemo extends Component {
       .then(json => this.setState({ loading: false, msg: json.msg }))
   }
 
-  render() {
+  /*render() {
     const { loading, msg } = this.state
 
     return (
@@ -29,7 +29,7 @@ class LambdaDemo extends Component {
         <span>{msg}</span>
       </p>
     )
-  }
+  }*/
 }
 
 class App extends Component {
@@ -64,8 +64,8 @@ class App extends Component {
     const title = "This is a title.";
 
     return (
-      <div className="App">
-        <header className="App-header">
+    //  <div className="App">
+      //  <header className="App-header">
 
             <h5> This is a new page for learning. </h5>
             <p> {title} </p>
