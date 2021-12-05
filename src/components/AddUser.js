@@ -43,7 +43,7 @@ class AddUser extends Component {
             </div>
             <div className="form-group">
             <label  htmlFor="email"> Email </label>
-            <input  type="text" name="Email" id="email" placeholder="Enter Your Email" className="form-control" value={email} onChange={this.onEmailChange.bind(this)}/>
+            <input  type="text" name="email" id="email" placeholder="Enter Your Email" className="form-control" value={email} onChange={this.onEmailChange.bind(this)}/>
             </div>
             <button type="submit" className="btn btn-danger btn-block">Add New User</button>
             </form>
