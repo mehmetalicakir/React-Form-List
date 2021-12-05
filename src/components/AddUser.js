@@ -10,11 +10,11 @@ class AddUser extends Component {
     onNameChange(e){
       this.setState({
         [e.target.name] : e.target.value
-      })}
+      });}
     onEmailChange(e){
       this.setState({
         [e.target.name] : e.target.value
-      })
+      });
     }
     onAddSubmit(e){
       const {addUser} = this.props;
