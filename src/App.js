@@ -39,6 +39,18 @@ class App extends Component {
   constructor(props){
     super(props);
 
+    this.deleteUser = this.deleteUser.bind(this);
+    deleteUser(id){
+      let updatedUsers = this.state.users;
+
+      updatedUsers = updatedUsers.filter(user => user.id !== id);
+      this.setState({
+        users: updatedUsers
+      })
+
+    }
+
+
     this.state = {
       users : [{
         id : 1,
@@ -69,7 +81,7 @@ class App extends Component {
             <AddUser />
             <hr/>
             <h4>User List</h4>
-            <Users users = {this.state.users}/>
+            <Users deleteUser = {this.deleteUser} users = {this.state.users}/>
         </header>
       </div>
     )
