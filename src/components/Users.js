@@ -4,6 +4,7 @@ import User from "./User.js"
 class Users extends Component {
   render() {
 
+      const {users} = this.props;
     return(
       <table className="table table-striped">
   <thead>
@@ -15,7 +16,19 @@ class Users extends Component {
     </tr>
   </thead>
   <tbody>
-    <User />
+    {
+      users.map(users => {
+
+        const {id,name,email} = user;
+        return <
+          key={id}
+          id={id}
+          name={name}
+          email={email}
+        />
+
+      })
+    }
   </tbody>
 </table>
     );
