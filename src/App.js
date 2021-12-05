@@ -46,7 +46,7 @@ class App extends Component {
       updatedUsers = updatedUsers.filter(user => user.id !== id);
       this.setState({
         users: updatedUsers
-      })
+      });
 
     }
 
