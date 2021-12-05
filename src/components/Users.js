@@ -4,7 +4,7 @@ import User from "./User.js"
 class Users extends Component {
   render() {
 
-      const {users} = this.props;
+      const {users,deleteUser} = this.props;
     return(
       <table className="table table-striped">
   <thead>
