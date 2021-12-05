@@ -33,13 +33,17 @@ class LambdaDemo extends Component {
 
 class App extends Component {
   render() {
+
+    const title = "This is a title.";
+
     return (
       <div className="App">
         <header className="App-header">
 
             <h5> This is a new page for learning. </h5>
-            <p> Default paragraph </p>
-            
+            <p> {title} </p>
+            <label  htmlFor="name"> This is label. </label>
+
 
         </header>
       </div>
