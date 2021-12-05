@@ -43,17 +43,17 @@ class App extends Component {
       users : [{
         id : 1,
         name: "Mehmet",
-        mail: "mehmet@mehmetalicakir.com"
+        email: "mehmet@mehmetalicakir.com"
       },
       {
         id : 2,
         name: "Ali",
-        mail: "ali@mehmetalicakir.com"
+        email: "ali@mehmetalicakir.com"
       },
       {
         id : 3,
         name: "Cakir",
-        mail: "cakir@mehmetalicakir.com"
+        email: "cakir@mehmetalicakir.com"
       },
     ]
     };

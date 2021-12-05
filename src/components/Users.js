@@ -25,6 +25,7 @@ class Users extends Component {
           id={id}
           name={name}
           email={email}
+          deleteUser={deleteUser}
         />
 
       })
