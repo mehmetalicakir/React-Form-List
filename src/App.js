@@ -59,9 +59,18 @@ class App extends Component {
     };
 
 this.deleteUser = this.deleteUser.bind(this);}
+this.addUser = this.addUser.bind(this);}
+
+  addUser(newUser){
+    let updatedUsers = this.state.users;
+    updatedUsers.push(newUser);
+    this.setState({
+      users=updatedUsers
+    });
+  }
+
   deleteUser(id){
   let updatedUsers = this.state.users;
-
   updatedUsers = updatedUsers.filter(user => user.id !== id);
   this.setState({
     users: updatedUsers
@@ -74,7 +83,7 @@ this.deleteUser = this.deleteUser.bind(this);}
       <div className="App">
         <header className="App-header">
             <h4>Add New User Form</h4>
-            <AddUser />
+            <AddUser addUser = {this.addUser} />
             <hr/>
             <h4>User List</h4>
             <Users deleteUser = {this.deleteUser} users = {this.state.users}/>
