@@ -69,7 +69,7 @@ class App extends Component {
             <AddUser />
             <hr/>
             <h4>User List</h4>
-            <Users />
+            <Users users = {this.state.users}/>
         </header>
       </div>
     )
