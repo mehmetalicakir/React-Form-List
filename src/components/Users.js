@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-import AddUser from "./AddUser.js"
+import User from "./User.js"
 
 class Users extends Component {
   render() {
