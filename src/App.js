@@ -32,6 +32,32 @@ class LambdaDemo extends Component {
 }
 
 class App extends Component {
+
+  constructor(props){
+    super(props);
+
+    this.state = {
+      user = [{
+        id : 1,
+        name: "Mehmet",
+        mail: "mehmet@mehmetalicakir.com"
+      },
+      {
+        id : 2,
+        name: "Ali",
+        mail: "ali@mehmetalicakir.com"
+      },
+      {
+        id : 3,
+        name: "Cakir",
+        mail: "cakir@mehmetalicakir.com"
+      },
+    ]
+    };
+
+
+  };
+
   render() {
 
     const title = "This is a title.";
