@@ -20,7 +20,7 @@ class Users extends Component {
       users.map(users => {
 
         const {id,name,email} = user;
-        return <
+        return < User
           key={id}
           id={id}
           name={name}
