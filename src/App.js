@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-import AddUser from ".component/AddUser.js"
+import AddUser from ".components/AddUser"
 import logo from "./logo.svg"
 import "./App.css"
 
@@ -71,7 +71,7 @@ class App extends Component {
             <p> {title} </p>
             <label  htmlFor="name"> User App </label>
             <hr />
-            <AddUser/>
+            <AddUser />
 
 
         </header>
