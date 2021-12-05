@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 class User extends Component{
   onDeleteClick(id,e){
     const {deleteUser} = this.props;
-    deleteUser(id);
+    deleteUser(id)
   }
   render(){
       const {id, name, email} = this.props;
