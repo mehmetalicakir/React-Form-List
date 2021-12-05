@@ -17,7 +17,7 @@ class Users extends Component {
   </thead>
   <tbody>
     {
-      users.map(users => {
+      users.map(user => {
 
         const {id,name,email} = user;
         return < User
