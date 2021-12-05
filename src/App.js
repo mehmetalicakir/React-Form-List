@@ -37,7 +37,7 @@ class App extends Component {
     super(props);
 
     this.state = {
-      user = [{
+      users : [{
         id : 1,
         name: "Mehmet",
         mail: "mehmet@mehmetalicakir.com"
