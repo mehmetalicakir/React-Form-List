@@ -8,7 +8,7 @@ class AddUser extends Component {
     return(
         <div className="card">
 
-          <h4 className="card-header", class="urgent">Add New User</h4>
+          <h4 className="card-header" class="urgent">Add New User</h4>
           <div className="card-body">
             <form>
             <div className="form-group">
