@@ -20,7 +20,7 @@ class AddUser extends Component {
       const {addUser} = this.props;
       const {name,email} = this.state;
       const newUser = {
-        id : Math.random(),
+        id : Math.floor(Math.random() * 1000)+3;,
         name : name,
         email : email
       };
