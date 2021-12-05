@@ -61,11 +61,8 @@ class App extends Component {
 
   render() {
     return (
-    //  <div className="App">
-      //  <header className="App-header">
-
-            <h5> This is a new page for learning. </h5>
-            <hr />
+      <div className="App">
+        <header className="App-header">
             <AddUser />
 
         </header>
