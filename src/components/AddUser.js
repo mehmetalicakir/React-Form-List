@@ -39,11 +39,11 @@ class AddUser extends Component {
             <form onSubmit= {this.onAddSubmit.bind(this)}>
             <div className="form-group">
             <label  htmlFor="name"> Name </label>
-            <input  type="text" name="name" id="name" placeholder="Enter Your Name" className="form-control" value={name} onchange={this.onNameChange.bind(this)}/>
+            <input  type="text" name="name" id="name" placeholder="Enter Your Name" className="form-control" value={name} onChange={this.onNameChange.bind(this)}/>
             </div>
             <div className="form-group">
             <label  htmlFor="email"> Email </label>
-            <input  type="text" name="Email" id="email" placeholder="Enter Your Email" className="form-control" value={email} onchange={this.onEmailChange.bind(this)}/>
+            <input  type="text" name="Email" id="email" placeholder="Enter Your Email" className="form-control" value={email} onChange={this.onEmailChange.bind(this)}/>
             </div>
             <button type="submit" className="btn btn-danger btn-block">Add New User</button>
             </form>
